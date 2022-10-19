@@ -13,7 +13,7 @@ rem 		3.1. Edit -> Decompile with ${Name}
 rem 	4. Modify shader as you wish, and click Refresh button to see the change
 
 : decompile input_file
-"%~dp0cmd_Decompiler.exe" -D "%1"
+"%~dp0fxcd.exe" -D "%1"
 
 : redirect to stdout
 for %%f in ("%1") do type "%%~dpnf.hlsl"

@@ -1,10 +1,10 @@
-## HLSLDecompiler
+## HLSL Decompiler
 
 Translate dxbc to hlsl source code. You can use it alone, or as a renderdoc shader processing tool to decompile shader. Although the decompiled result looks very like the disassembly, you can edit the decompiled source code and refresh to see the change in Renderdoc. It's very useful while learning and analyzing rendering techniques in games if you don't have source code.
 
-### How to integrate into renderdoc
+### As Renderdoc Plugin
 
-1. Put `hlsl_decompiler_wrapper.bat` and `cmd_Decompiler.exe` in the same directory
+1. Put `.\Wrapper\RenderdocWrapper.bat` and `fxcd.exe` in the same directory
 2. Renderdoc -> Tools -> Settings -> Shader Viewer -> Add
     | Field | Value |
     |------|:--------------:|
