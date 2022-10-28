@@ -5,7 +5,7 @@
 
 #include <iostream>     // console output
 
-#include <D3Dcompiler.h>
+#include <d3dcompiler.h>
 #include "DecompileHLSL.h"
 #include "version.h"
 #include "log.h"

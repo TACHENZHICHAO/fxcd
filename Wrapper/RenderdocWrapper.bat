@@ -5,7 +5,7 @@ rem 	1. Put this batch file and cmd_Decompiler.exe in the same directory
 rem 	2. Renderdoc -> Tools -> Settings -> Shader Viewer -> Add
 rem 		2.1. Name: whatever you like
 rem 		2.2. Tool Type: Custom Tool
-rem 		2.3. Executable: Choose this batch file instead of cmd_Decompiler.exe
+rem 		2.3. Executable: Choose this batch file instead of fxcd.exe
 rem 		2.4. Command Line: {input_file}
 rem 		2.5. Input/Output: DXBC/HLSL
 rem 	3. Renderdoc -> Pipeline State View -> Choose Any Shader Stage
