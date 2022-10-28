@@ -4,7 +4,7 @@ Translate dxbc to hlsl source code. You can use it alone, or as a renderdoc shad
 
 ### As Renderdoc Plug-in
 
-1. Download from (release)[https://github.com/hellokenlee/fxcd/releases/tag/v0.2.1]. 
+1. Download from [release](https://github.com/hellokenlee/fxcd/releases/tag/v0.2.1). 
 
 2. Make sure `RenderdocWrapper.bat` and `fxcd.exe` are in the same directory
 
